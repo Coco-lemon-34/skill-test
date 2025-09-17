@@ -16,7 +16,7 @@ import { NoticeForm } from '../components';
 
 const initialState: NoticeFormProps = {
   title: '',
-  content: '',
+  description: '', // Fixed: Changed from 'content' to 'description' to match schema
   status: 0,
   recipientType: 'EV',
   recipientRole: 0,
